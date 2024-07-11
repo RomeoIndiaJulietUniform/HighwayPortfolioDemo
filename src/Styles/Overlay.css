@@ -1,0 +1,34 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-out;
+    opacity: 1;
+    z-index: 1000; /* Ensure it is on top of other elements */
+  }
+  
+  .fade-out {
+    opacity: 0;
+    pointer-events: none; /* Allows interaction with the page beneath the overlay */
+  }
+  
+  .rotating-image {
+    width: 150px; /* Adjust size as needed */
+    animation: rotateZ 2s infinite linear; /* Apply the rotation animation */
+  }
+  
+  /* Define the rotation animation */
+  @keyframes rotateZ {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
