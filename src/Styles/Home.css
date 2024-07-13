@@ -1,0 +1,37 @@
+.home-container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column; /* Allows stacking of sections */
+  }
+  
+  .full-screen-image {
+    position: fixed; /* Keeps the image fixed in place */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  
+  .text-section {
+    font-family: "Playwrite CL", serif;
+    color: white;
+    padding: 20px;
+    padding-left: 10%; /* Added padding-left to move text section to the right */
+    z-index: 1;
+    text-align: left; 
+    margin: auto;
+    font-size: 1.5rem;
+    position: relative;
+    overflow-y: auto; /* Allows scrolling of text */
+    height: 100vh; /* Ensures the section takes full height */
+    width: 100%; /* Full width */
+    line-height: 2.5; 
+  }
+  
