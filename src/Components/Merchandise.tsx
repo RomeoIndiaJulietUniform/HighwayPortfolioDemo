@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Styles/Merchandise.css"
 
 export const Merchandise = () => {

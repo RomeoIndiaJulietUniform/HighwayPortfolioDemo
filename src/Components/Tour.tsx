@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Styles/Tour.css"
 
 const Tour = () => {

@@ -10,7 +10,7 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  // Navigate
 } from "react-router-dom";
 
 function App() {
