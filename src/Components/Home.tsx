@@ -8,7 +8,7 @@ const Home = () => {
     "Ut enim ad minim veniam, quis nostrud exercitation.",
     "Duis aute irure dolor in reprehenderit in voluptate.",
     "Excepteur sint occaecat cupidatat non proident.",
-    "Curabitur pretium tincidunt lacus, nisi condimentum.",
+    "Curabitur pretium tincidunt wwlacus, nisi condimentum.",
     "Suspendisse in posuere eros, vitae ultricies dolor. Mauris blandit elit, eget tincidunt nibh pulvinar.",
     "Vivamus suscipit tortor eget felis porttitor. Curabitur non nulla sit amet nisl tempus.",
     "Aliquam bibendum, elit eget laoreet ultrices. Integer maximus nulla id orci consectetur.",
